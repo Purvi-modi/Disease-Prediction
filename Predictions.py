@@ -40,7 +40,7 @@ def predict(data):
   psymptoms = pd.DataFrame(data['symptoms'])
 
 
-  #conn = S3Connection(aws_access_key_id='AKIAYZVN6JE7LXYBK5PO' , aws_secret_access_key= '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', host='s3.us-east-2.amazonaws.com')
+  #conn = S3Connection(aws_access_key_id='access_id' , aws_secret_access_key= 'secret_access', host='host_name')
   #bucket = conn.get_bucket(BUCKET_NAME)
   #key_obj = Key(bucket)
   #key_obj.key = 'Symptom-severity.csv'
