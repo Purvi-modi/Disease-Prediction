@@ -12,14 +12,15 @@ This Project is aimed at prediction Disease based on given set of symptoms.
 
 **API Input** - 
 
-{ "symptoms" :
+{ 
+"symptoms" :
    
-       [ 
-          "itching",  
-          "skin_rash", 
-          "nodal_skin_eruptions",  
-          "dischromic__patches"
-       ]
+    [ 
+       "itching",  
+       "skin_rash", 
+       "nodal_skin_eruptions",  
+       "dischromic__patches"
+    ]
 }
 
 **API OutPut**-
